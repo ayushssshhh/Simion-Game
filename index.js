@@ -39,7 +39,7 @@ function nextSequence(){
     $("#level-title").text("Level " + level);
 
     var randomNumber = Math.floor(Math.random() * 4);
-    var randomChosenColor = buāttonColors[randomNumber];
+    var randomChosenColor = buttonColors[randomNumber];
     gamePattern.push(randomChosenColor);
     
     console.log(randomChosenColor);
